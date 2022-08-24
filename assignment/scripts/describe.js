@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// we make a string variable called name and set it equal to Dane
+// We check if name is equal to Mary, and if it is equal then we log 'Hi, Mary!' in the console
+// Name is not equal to Mary, so we log 'How do you do?' in the console
 //
 
 //CODE
