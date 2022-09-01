@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make an undefined variable named secret, and we make a number variable named code that equals 123
+// We check to see if code equals 123, and if it does then secret becomes defined as 'super' and the code value of 123 becomes multiplied by 2, making code equal 246
+// If at this point code equals greater than 250, then the variable secret becomes defined as 'duper' . This portion of code will not run under the current initial value of code being 123
+// The secret variable is logged to the console, displaying 'super' in the console
 
 //CODE
 /*
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// we make a boolean variable named isStudent and set it equal to true, we make a number variable named age and set it equal to 34, we make another number variable named zip and set it equal to 55407
+// we check to see if the value of isStudent is true and also if the value of zip is greater than 8000. If these conditions are met, then the phrase 'you're a student on the West Coast!' is logged to the console
+// if the previous conditions were not met, then we check to see if the value of isStudent is false or if value of age is less than thirty. If either of those conditions are met then the phrase 'What are your hobbies?' is logged to the console
+//if the previous conditions were not met, then we check to see if the value of isStudent is true. If this condition is met then the phrase 'Welcome to Prime!' is logged in the console
+//if none of the conditions in any of the previous if statements are met, then the phrase 'How about the weather?' is logged to the console
+//Because of the initial set values of the variables we created, the console will log 'Welcome to Prime!'
 
 //CODE
 /*
@@ -130,9 +132,13 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne should be set to 'blue' and colorTwo should be 'red' as per the description, the code has those two values for the string variables swapped
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+// FIX - the description states that if mix === true, then both colorOne and colorTwo should be set to purple, but the code only redefines the string variable colorOne
 
 if (mix === true) {
   colorOne = 'purple';
@@ -144,9 +150,11 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+
 let temp = 40;
 const time = 4;
 
+// FIX - the description describes a conditional with an and (&&) qualifier while the code has an or (||)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,6 +167,8 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
+
+// FIX - if age is greater than or equal to minAge it should display 'enter', but the code is instead logging 'no entry' if that condition is met
 
 if(minAge <= age) {
   console.log('no entry');
